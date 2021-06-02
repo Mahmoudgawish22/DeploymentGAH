@@ -9,3 +9,8 @@
     justify-content: center;
     background-attachment: fixed;
 }
+@media screen and (max-device-width: 1024px){
+    #secondheader {
+        background-attachment: inherit;
+    }
+}

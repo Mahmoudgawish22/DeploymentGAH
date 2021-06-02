@@ -18,7 +18,7 @@ function Data(props) {
             <div id='numbers' className='container-fluid'>
                 <div className='numbersToData'>
                     <div className='headerofData'>
-                        <h2 style={{fontSize: '30px', fontFamily: 'Barlow Condensed'}}>Posts</h2>
+                        <h2 style={{fontSize: '30px', fontFamily: "'Barlow Condensed', 'Tajawal'"}}>Posts</h2>
                     </div>
                     <div className='contentofData'>
                         <h1 style={{fontSize: '80px'}}>{posts.length}</h1>
@@ -26,7 +26,7 @@ function Data(props) {
                 </div>
                 <div className='numbersToData'>
                 <div className='headerofData'>
-                        <h2 style={{fontSize: '30px', fontFamily: 'Barlow Condensed'}}>In Slideshow</h2>
+                        <h2 style={{fontSize: '30px', fontFamily: "'Barlow Condensed', 'Tajawal'"}}>In Slideshow</h2>
                     </div>
                     <div className='contentofData'>
                         <h1 style={{fontSize: '80px'}}>{slideShow.length}</h1>
@@ -34,7 +34,7 @@ function Data(props) {
                 </div>
                 <div className='numbersToData'>
                 <div className='headerofData'>
-                        <h2 style={{fontSize: '30px', fontFamily: 'Barlow Condensed'}}>Admins</h2>
+                        <h2 style={{fontSize: '30px', fontFamily: "'Barlow Condensed', 'Tajawal'"}}>Admins</h2>
                     </div>
                     <div className='contentofData'>
                         <h1 style={{fontSize: '80px'}}>{users.length}</h1>
@@ -42,7 +42,7 @@ function Data(props) {
                 </div>
                 <div className='numbersToData'>
                 <div className='headerofData'>
-                        <h2 style={{fontSize: '30px', fontFamily: 'Barlow Condensed'}}>Messages</h2>
+                        <h2 style={{fontSize: '30px', fontFamily: "'Barlow Condensed', 'Tajawal'"}}>Messages</h2>
                     </div>
                     <div className='contentofData'>
                         <h1 style={{fontSize: '80px'}}>{messages.length}</h1>
@@ -51,7 +51,7 @@ function Data(props) {
             </div>
             <div id='lastPost'>
                 <div id='lastpostHeader'>
-                <h2 style={{fontSize: '30px', fontFamily: 'Barlow Condensed'}}>Lastest Post</h2>
+                <h2 style={{fontSize: '30px', fontFamily: "'Barlow Condensed', 'Tajawal'"}}>Lastest Post</h2>
                 </div>
                 <div>
                     <img id='lastpostPhoto' src={posts[posts.length-1]?.photo} alt='Last-Post'/>
