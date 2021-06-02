@@ -6,7 +6,7 @@ import 'lightbox-react/style.css'
 
 function Products(props) {
     const posts = useSelector((state) => state.posts)
-    const images = posts.map(item=> item.photo);
+    const images = posts.slice(0).reverse().map(item=> item.photo);
     const [lightbox, setLightbox] = useState({
         photoIndex: 0,
         isOpen: false,
