@@ -10,7 +10,7 @@ function Footer() {
                 </div>
                 <hr style={{width: '30%', color: 'white'}}/>
                 <p className='icondiscrbfooter'>
-                    إحدى مشروعات <span style={{color: 'white'}}> Mahmoud Gawish </span>
+                    إحدى مشروعات م/ <span style={{color: 'white'}}> Mahmoud Gawish </span>
                     <br/>
                     صُمم الموقع كاملًا باستخدام تكنولوجيا الـMern Stack
                     <br/>

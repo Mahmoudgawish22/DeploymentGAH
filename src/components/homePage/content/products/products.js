@@ -5,7 +5,8 @@ import Lightbox from 'lightbox-react'
 import 'lightbox-react/style.css'
 
 function Products(props) {
-    const posts = useSelector((state) => state.posts)
+    const posts = useSelector((state) => state.posts);
+    const reversedPosts = posts.slice(0).reverse();
     const images = posts.slice(0).reverse().map(item=> item.photo);
     const [lightbox, setLightbox] = useState({
         photoIndex: 0,
@@ -42,11 +43,11 @@ function Products(props) {
             onCloseRequest={() => setLightbox({ isOpen: false })}
             onMovePrevRequest={() =>setLightbox({photoIndex: (lightbox.photoIndex + images.length - 1) % images.length, isOpen: true})}
             onMoveNextRequest={() =>setLightbox({photoIndex: (lightbox.photoIndex + 1) % images.length, isOpen: true})}
-            imageTitle= {posts[lightbox.photoIndex].title}
+            imageTitle= {reversedPosts[lightbox.photoIndex].title}
             imageCaption= {
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center',padding: '5px', height:'auto'}}>
-                    <h4 style={{fontFamily: 'Open Sans'}}>{posts[lightbox.photoIndex].subtitle}</h4>
-                    <h6 style={{fontFamily: 'cursive'}}>@ {posts[lightbox.photoIndex].tags}</h6>
+                    <h4 style={{fontFamily: 'Open Sans'}}>{reversedPosts[lightbox.photoIndex].subtitle}</h4>
+                    <h6 style={{fontFamily: 'cursive'}}>@ {reversedPosts[lightbox.photoIndex].tags}</h6>
                 </div>
             }
           />
