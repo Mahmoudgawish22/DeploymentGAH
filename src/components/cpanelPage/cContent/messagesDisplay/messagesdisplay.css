@@ -1,0 +1,41 @@
+#messagesdisplay {
+    min-height: 95vh;
+    width: 100%;
+    height: 100%;
+    background-color: #283339;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.messagespost {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    gap: 2px;
+}
+.messagelink {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+.itemlinkMS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    text-decoration: none;
+    color: #333;
+}
+.itemlinkMS:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  @media (max-width: 850px) {
+    .itemlinkMS {
+        flex-direction: column;
+    }
+    }

@@ -1,0 +1,76 @@
+#discrb {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #f2f2f2;
+}
+.discrbicon {
+    height: 150px;
+    width: 150px;
+}
+#discrbtitle {
+    color: rgb(0, 0, 0);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#discrbsubcontent {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+.prop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.propex {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 5px;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+#props {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+.discbicon {
+    height: 300px;
+    width: 300px;
+}
+.describtion {
+    width: 50%
+}
+@media (max-width: 850px) {
+    .discbicon {
+      height: 150px;
+      width: 150px;
+    }
+    .prop, .propex {
+      flex-direction: column;
+    }
+    .icondiscrb {
+      display: none
+    }
+  }

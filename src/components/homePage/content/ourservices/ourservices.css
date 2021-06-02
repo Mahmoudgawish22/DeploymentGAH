@@ -1,0 +1,22 @@
+#ourservices {
+    background-color: #ffffff;
+    padding: 70px;
+    height: auto;
+}
+#uppersection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#owner {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#whoIamDisc {
+    font-size: 20px;
+    padding: 10px;
+}

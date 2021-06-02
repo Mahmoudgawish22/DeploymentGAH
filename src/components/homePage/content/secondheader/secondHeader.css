@@ -1,0 +1,11 @@
+#secondheader {
+    background-color: rgb(255, 255, 255);
+    height: 750px;
+    width: 100%;
+    margin:-70px auto;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}

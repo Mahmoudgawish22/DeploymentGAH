@@ -1,0 +1,14 @@
+#header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    align-items: center;
+}
+#logo {
+    margin-left: 5px;
+    margin-top: 15px;
+    height: 35px;
+    width: 49px;
+}

@@ -1,0 +1,27 @@
+#reusablecontent {
+    color: rgb(255, 255, 255) ;
+    font-size: 40px;
+    text-align: center;
+    width: 60%;
+    font-family: "Poppins",sans-serif;
+}
+#reusableheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link {
+        text-decoration: none;
+        color:  #000;
+        font-family: 'Oswald', sans-serif;     
+        padding: 10px;
+    }
+    .nav-link:hover {
+        color: #ffffff;
+    }
+    @media (max-width: 850px) {
+        #reusablecontent {
+            font-size: 30px;
+        }
+        }
