@@ -53,7 +53,7 @@ function Login(props) {
   if (!user?.result?.name) {
     return (
         <div id='login' style={{backgroundImage: `url(${logo})`}}>
-            <h1 style={{color: 'white', fontFamily: "'Barlow Condensed'"}}>
+            <h1 className='loginContent' style={{color: 'white'}}>
                 Welcome To Omar Timo C-Panel, Please Log in to Continue!
             </h1>
             <form onSubmit={handleSubmit} style={{textAlign: 'left',padding: '30px', borderRadius: '5px', backgroundColor: 'rgba(255, 255, 255, 0.8)'}}>

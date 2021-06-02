@@ -18,40 +18,40 @@ function Data(props) {
             <div id='numbers' className='container-fluid'>
                 <div className='numbersToData'>
                     <div className='headerofData'>
-                        <h2 style={{fontSize: '30px', fontFamily: "'Tajawal'"}}>Posts</h2>
+                        <h2 className='loginContent' style={{fontSize: '30px'}}>Posts</h2>
                     </div>
                     <div className='contentofData'>
-                        <h1 style={{fontSize: '80px'}}>{posts.length}</h1>
+                        <h1 className='loginContent' style={{fontSize: '80px'}}>{posts.length}</h1>
                     </div>
                 </div>
                 <div className='numbersToData'>
                 <div className='headerofData'>
-                        <h2 style={{fontSize: '30px', fontFamily: "'Tajawal'"}}>In Slideshow</h2>
+                        <h2 className='loginContent' style={{fontSize: '30px'}}>In Slideshow</h2>
                     </div>
                     <div className='contentofData'>
-                        <h1 style={{fontSize: '80px'}}>{slideShow.length}</h1>
+                        <h1 className='loginContent' style={{fontSize: '80px'}}>{slideShow.length}</h1>
                     </div>
                 </div>
                 <div className='numbersToData'>
                 <div className='headerofData'>
-                        <h2 style={{fontSize: '30px', fontFamily: "'Tajawal'"}}>Admins</h2>
+                        <h2 className='loginContent' style={{fontSize: '30px'}}>Admins</h2>
                     </div>
                     <div className='contentofData'>
-                        <h1 style={{fontSize: '80px'}}>{users.length}</h1>
+                        <h1 className='loginContent' style={{fontSize: '80px'}}>{users.length}</h1>
                     </div>
                 </div>
                 <div className='numbersToData'>
                 <div className='headerofData'>
-                        <h2 style={{fontSize: '30px', fontFamily: "'Tajawal'"}}>Messages</h2>
+                        <h2 className='loginContent' style={{fontSize: '30px'}}>Messages</h2>
                     </div>
                     <div className='contentofData'>
-                        <h1 style={{fontSize: '80px'}}>{messages.length}</h1>
+                        <h1 className='loginContent' style={{fontSize: '80px'}}>{messages.length}</h1>
                     </div>
                 </div>
             </div>
             <div id='lastPost'>
                 <div id='lastpostHeader'>
-                <h2 style={{fontSize: '30px', fontFamily:  "'Tajawal'"}}>Lastest Post</h2>
+                <h2 style={{fontSize: '30px'}}>Lastest Post</h2>
                 </div>
                 <div>
                     <img id='lastpostPhoto' src={posts[posts.length-1]?.photo} alt='Last-Post'/>
