@@ -26,12 +26,12 @@ function HeaderLogo(props) {
     return (
         <div id='reusableheader'>
             <p id='reusablecontent'>{props.disc}</p>
-            <a href='#secondSection' style={{width: '30%', marginBottom:'10px'}} className='btn btn-light'>Get Started!</a>
+            <a href='#secondSection' style={{width: '30%', marginBottom:'10px'}} className='btn btn-dark'>Get Started!</a>
             <a href='#contactform' style={{width: '30%'}} className='btn btn-danger'>Contact Us!</a>
             {
             user? 
-            <a href='/cpanel' class="nav-link" style={{fontSize:'14px',display:'flex',alignItems:'center', marginTop:'7px'}} target="_self"><i style={{color:'#000 ',fontSize:'18px',marginRight:'10px'}} class="fas fa-gamepad"></i> Enter C-panel</a>
-            : <a href='/login' class="nav-link" style={{fontSize:'14px',display:'flex',alignItems:'center', marginTop:'7px'}} target="_self"><i style={{color:'#000 ',fontSize:'18px',marginRight:'10px'}} class="fas fa-sign-in-alt"></i> Are you an Admin?</a>
+            <a href='/cpanel' class="nav-link" style={{fontSize:'14px',display:'flex',alignItems:'center', marginTop:'7px'}} target="_self"><i style={{color:'#fff ',fontSize:'18px',marginRight:'10px'}} class="fas fa-gamepad"></i> Enter C-panel</a>
+            : <a href='/login' class="nav-link" style={{fontSize:'14px',display:'flex',alignItems:'center', marginTop:'7px'}} target="_self"><i style={{color:'#fff ',fontSize:'18px',marginRight:'10px'}} class="fas fa-sign-in-alt"></i> Admin?</a>
         }
             </div>
     )

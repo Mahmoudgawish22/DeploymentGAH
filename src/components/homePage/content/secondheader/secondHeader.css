@@ -11,6 +11,6 @@
 }
 @media screen and (max-device-width: 1024px){
     #secondheader {
-        background-attachment: inherit;
+        background-attachment: scroll;
     }
 }

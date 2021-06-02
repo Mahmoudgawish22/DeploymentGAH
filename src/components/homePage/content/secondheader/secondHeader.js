@@ -2,7 +2,7 @@ import '../secondheader/secondHeader.css';
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import logo from "../../../../imgs/192166475_465791097850428_441314903489211223_n.jpg";
-import logo2 from "../../../../imgs/pexels-photo-1053687.jpg";
+import logo2 from "../../../../imgs/pexels-photo-1053687.jpeg";
 import HeaderLogo from '../slideshow/headerLogo/headerLogo.js'
 
 function SecondHeader() {
